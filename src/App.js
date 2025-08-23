@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import Sidebar from './components/sidebar';
+import Header from './components/Header';
+import Routers from './router/router';
+import { BrowserRouter } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <>
+ <BrowserRouter>
+ <Header/>
+ <div className=' flex gap-2'>
+ <Sidebar/>
+
+ {/* roteer */}
+<Routers/>
+
+  </div>
+  </BrowserRouter>
+ </>
   );
 }
 
