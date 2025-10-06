@@ -13,7 +13,7 @@ function App() {
  <div className=' flex gap-2'>
  <Sidebar/>
 
- {/* roteer */}
+ {/* roteer  design*/}
 <Routers/>
 
   </div>
