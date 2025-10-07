@@ -2,7 +2,7 @@ const Help =()=>{
     return(
         <>
         <h1>
-            help is here
+            help 
             </h1></>
     )
 }
