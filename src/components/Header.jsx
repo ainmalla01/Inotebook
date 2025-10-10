@@ -4,7 +4,8 @@ const Header = () => {
       {/* Logo */}
       <div className="flex items-center gap-2">
         <img
-          src="/images/logo.png" // if in public imaages part
+        // if in public imaages part
+          src="/images/logo.png" 
           alt="Logo"
           className="h-10 w-10"
         />
