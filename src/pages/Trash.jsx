@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// Design for the trash frame work
 const TrashNotes = () => {
   const [Trashes, setTrashes] = useState([]);
 
