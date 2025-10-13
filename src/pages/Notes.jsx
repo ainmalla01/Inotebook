@@ -4,7 +4,7 @@ import { FaTrash } from "react-icons/fa";
 const Notes = () => {
   const [notes, setNotes] = useState([]);
 
-  // fetch notes on load
+  // fetch notes on load here
   useEffect(() => {
     fetch("http://localhost:5000/api/note/gettingnotes")
       .then((res) => res.json())
