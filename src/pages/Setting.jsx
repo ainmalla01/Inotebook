@@ -1,4 +1,4 @@
-// design for setting 
+// design for setting here
 const Setting =()=>{
     return(
         <>
